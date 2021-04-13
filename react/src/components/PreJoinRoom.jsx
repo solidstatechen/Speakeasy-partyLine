@@ -59,7 +59,7 @@ const PreJoinRoom = () => {
 
   return (
     <Container>
-      <Title>Getting started</Title>
+      <Title>Jumping in</Title>
       <Form onSubmit={submitForm}>
         <Label htmlFor="fname">First name</Label>
         <Input

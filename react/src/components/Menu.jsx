@@ -25,8 +25,8 @@ const Container = styled.ul`
   flex-direction: column;
   background-color: ${theme.colors.white};
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04), 0px 0px 4px rgba(0, 0, 0, 0.08);
-  margin: 0;
-  padding: 8px 0;
+  margin:10px -30px;
+  padding: 0px 0;
 `;
 const Option = styled.li`
   list-style: none;
