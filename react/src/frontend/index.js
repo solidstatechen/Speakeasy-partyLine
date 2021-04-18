@@ -3,11 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import OldFrontend from "./frontend/App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <OldFrontend />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
