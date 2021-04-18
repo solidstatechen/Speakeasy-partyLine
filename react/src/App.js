@@ -5,7 +5,6 @@ import theme from "./theme";
 import logo from "./icons/logo.svg";
 import { SmallText } from "./components/shared/SmallText";
 import { CallProvider, INCALL, PREJOIN, useCallState } from "./CallProvider";
-
 export const MOD = "MOD";
 export const SPEAKER = "SPK";
 export const LISTENER = "LST";
@@ -38,7 +37,7 @@ const AppContent = () => {
   );
 };
 
-function App() {
+function Backend() {
   return (
     <CallProvider>
       <AppContent />
@@ -91,4 +90,4 @@ const Link = styled.a`
   }
 `;
 
-export default App;
+export default Backend;
