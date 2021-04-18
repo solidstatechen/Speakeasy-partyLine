@@ -37,7 +37,7 @@ const AppContent = () => {
   );
 };
 
-function App() {
+function Backend() {
   return (
     <CallProvider>
       <AppContent />
@@ -90,4 +90,4 @@ const Link = styled.a`
   }
 `;
 
-export default App;
+export default Backend;

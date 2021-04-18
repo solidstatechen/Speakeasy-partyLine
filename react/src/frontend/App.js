@@ -11,6 +11,7 @@ import Logo from './images/speakeasyLogo.PNG';
 import CreateNewCallPage from './CreateNewCall';
 //import CreateNewCall from './CreateNewCall'
 import React, { useState, useRef } from 'react';
+import Backend from '../App';
 const dotenv = require("dotenv").config();
 
 function App() {
@@ -34,9 +35,7 @@ function App() {
           <Bottom />
         </Route>
         <Route path="/chatroom">
-          <Toplog />
-          <Chatroom/>
-          <Bottom />
+          <Backend/>
         </Route>
         <Route path="/about">
           <Toplog />
